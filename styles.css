@@ -287,18 +287,18 @@
   }
   
   .about .about-content .left {
-    width: 45%;
+    width: 35%;
   }
   
   .about .about-content .left img {
     height: 400px;
-    width: 400px;
+    width: 300px;
     object-fit: cover;
     border-radius: 6px;
   }
   
   .about .about-content .right {
-    width: 55%;
+    width: 65%;
   }
   
   .about .about-content .right .text {

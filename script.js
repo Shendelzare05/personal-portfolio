@@ -41,26 +41,26 @@ $(document).ready(function () {
     var typed = new Typed(".typing", {
       strings: [
         "Fullstack Developer",
-        "Software Developer",
-        "Python Developer",
-        "Founder",
-        "Author"
+        "Software Engineer",
+        "NestJs Developer",
+        "Backend Developer",
+        "Electrical Engineer"
       ],
-      typeSpeed: 100,
-      backSpeed: 60,
+      typeSpeed: 60,
+      backSpeed: 40,
       loop: true
     });
   
     var typed = new Typed(".typing-2", {
       strings: [
         "Fullstack Developer",
-        "Software Developer",
-        "Python Developer",
-        "Founder",
-        "Author"
+        "Software Engineer",
+        "NestJs Developer",
+        "Backend Developer",
+        "Electrical Engineer"
       ],
-      typeSpeed: 100,
-      backSpeed: 60,
+      typeSpeed: 60,
+      backSpeed: 40,
       loop: true
     });
   
