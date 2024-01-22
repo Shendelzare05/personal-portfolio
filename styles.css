@@ -42,11 +42,11 @@
   
   ::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
+    background: linear-gradient(135deg, #041d3d, #fff, #041d3d);
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #1a6ad2, #fff, rgb(245, 5, 53));
+    background: linear-gradient(135deg, #041d3d, #fff, #041d3d);
   }
   
   /*  Simillar  */
@@ -139,7 +139,7 @@
   
   /*  Nav Logo Span Linear-Gradient  */
   .navbar .logo a span {
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: linear-gradient(135deg, #041d3d, #fff, #041d3d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
+    background: url("assets/acd68653a700736ad05d218be1a6fd96.gif") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -249,7 +249,7 @@
   /* Linear Gradient */
   .home .home-content .text-3 span {
     color: #1e3551;
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: linear-gradient(135deg, #041d3d, #fff, #041d3d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
@@ -310,7 +310,7 @@
   /* Linear Gradiant */
   .about .about-content .right .text span {
     /* color: #1e3551; */
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: linear-gradient(135deg, #041d3d, #fff, #041d3d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -381,7 +381,7 @@
   .services .serv-content .card i {
     font-size: 50px;
     color: #888e8d;
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: linear-gradient(135deg, #041d3d, #fff, #041d3d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: color 0.3s ease;
