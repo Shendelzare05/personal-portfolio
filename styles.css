@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("assets/acd68653a700736ad05d218be1a6fd96.gif") no-repeat
+    background: url("assets/wp2757880.gif") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -438,12 +438,12 @@
     animation: pulsate 1s ease-in-out;
   }
   
-  .intern,
+  .work,
   .project {
     list-style: none;
   }
   
-  .intern::before,
+  .work::before,
   .project::before {
     content: "✪ ";
     color: #1e3551;
@@ -481,27 +481,27 @@
     background: #1e3551;
   }
   
-  .skills-content .right .python::before {
+  .skills-content .right .typescript::before {
     width: 90%;
   }
   
-  .skills-content .right .html::before {
+  .skills-content .right .nestjs::before {
+    width: 90%;
+  }
+  
+  .skills-content .right .postgres::before {
     width: 80%;
   }
   
-  .skills-content .right .css::before {
+  .skills-content .right .mongodb::before {
+    width: 80%;
+  }
+  
+  .skills-content .right .neo4j::before {
     width: 60%;
   }
   
-  .skills-content .right .js::before {
-    width: 40%;
-  }
-  
-  .skills-content .right .bootstraps::before {
-    width: 60%;
-  }
-  
-  .skills-content .right .django::before {
+  .skills-content .right .redis::before {
     width: 70%;
   }
   
