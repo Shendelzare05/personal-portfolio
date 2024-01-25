@@ -578,6 +578,10 @@
   .owl-dot:hover {
     background: #18365a !important;
   }
+
+  a:link, a:visited {
+    color: white;
+  }
   
   /*  Contact  */
   .contact {
