@@ -612,7 +612,6 @@
   
   .contact .contact-content .row {
     display: flex;
-    height: 65px;
     align-items: center;
   }
   
@@ -938,3 +937,103 @@
       line-height: 38px;
     }
   }
+
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.row { 
+    display: flex; 
+} 
+.cell { 
+    border: none; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+}   
+.cell:active { 
+    outline: none;
+} 
+/* 3*3 Grid */
+#b00{ 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b01 { 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b02 { 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b10 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+      
+#b11 { 
+    border: 1px solid gray; 
+} 
+  
+#b12 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b20 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b21 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b22 { 
+    border-top: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+/* Reset Button */
+#but { 
+    box-sizing: border-box; 
+    width: 95px; 
+    height: 40px; 
+    border: 1px solid dodgerblue; 
+    margin-left: auto; 
+    border-radius: 8px; 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+  
+    background-color: whitesmoke; 
+    color: dodgerblue; 
+    font-size: 20px; 
+    cursor: pointer; 
+} 
+  
+/* Player turn space */
+#print { 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+    color: dodgerblue; 
+    font-size: 20px; 
+} 
+  
+/* Main Container */
+#main { 
+    text-align: center; 
+} 

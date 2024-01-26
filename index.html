@@ -254,7 +254,7 @@
               <div class="text">Get in Touch</div>
               <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be a part of your visions. Email me with any questions or inquiries.</p>
               <div class="icons">
-
+                <br>
                 <a href="#">
                   <div class="row">
                     <i class="fa-solid fa-user-large"></i>
@@ -264,7 +264,7 @@
                     </div>
                   </div>
                 </a>
-
+                <br>
                 <div class="row">
                   <i class="fa-solid fa-location-dot"></i>
                   <div class="info">
@@ -272,7 +272,7 @@
                     <div class="sub-title"> Jagobiao, Mandaue City, Cebu</div>
                   </div>
                 </div>
-
+                <br>
                 <div class="row">
                   <i class="fa-solid fa-envelope"></i>
                   <div class="info">
@@ -280,7 +280,7 @@
                     <div class="sub-title"><a href="mailto:philipcalapezz@gmail.com" style="text-decoration: none; color: #333;" target="_blank"> philipcalapezz@gmail.com</a></div>
                   </div>
                 </div>
-
+                <br>
                 <div class="row">
                   <i class="bi bi-translate"></i>
                   <div class="info">
@@ -289,7 +289,7 @@
                   </div>
                 </div>
 
-                <br>
+                <br><br>
 
                 <!-- Social -->
                 <div class="social-menu">
@@ -325,6 +325,52 @@
                 </div>
               </form>
             </div> -->
+
+            <div id="main"> 
+              <h1>Play Tic Tac Toe with me</h1>
+              <br>
+              <div class = "ui"> 
+                  <div class="row"> 
+                      <input type="text" id= "b00" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                      <input type="text" id= "b01" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                      <input type="text" id= "b02"
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                  </div> 
+                  <div class="row"> 
+                      <input type="text" id= "b10" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                      <input type="text" id= "b11" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                      <input type="text" id= "b12" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                  </div> 
+                  <div class="row"> 
+                      <input type="text" id= "b20" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                      <input type="text" id= "b21" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                      <input type="text" id= "b22" 
+                             class="cell" onclick="makeAMove(id)" 
+                             readonly> 
+                  </div> 
+              </div> 
+              <br><br><br> 
+              
+              <button id="but" onclick="reloadGame()"> 
+                  RESET 
+              </button>
+
+
           </div>
         </div>
       </section>
