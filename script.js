@@ -514,11 +514,9 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing", {
       strings: [
-        "Fullstack Developer",
-        "Software Engineer",
-        "NestJs Developer",
-        "Backend Developer",
-        "Electrical Engineer"
+        "Associate Virtual Medical Assistant",
+        "Virtual Medical Assistant",
+        "Respiratory Therapist",
       ],
       typeSpeed: 60,
       backSpeed: 40,
@@ -527,11 +525,9 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing-2", {
       strings: [
-        "Fullstack Developer",
-        "Software Engineer",
-        "NestJs Developer",
-        "Backend Developer",
-        "Electrical Engineer"
+        "Associate Virtual Medical Assistant",
+        "Virtual Medical Assistant",
+        "Respiratory Therapist",
       ],
       typeSpeed: 60,
       backSpeed: 40,
